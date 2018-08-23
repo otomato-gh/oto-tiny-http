@@ -1,0 +1,7 @@
+[package]
+name = "oto-tiny-http"
+version = "0.1.0"
+authors = ["Anton Weiss <anton@otomato.link>"]
+
+[dependencies]
+tiny_http = "*"
