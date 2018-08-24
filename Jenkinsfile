@@ -34,7 +34,7 @@ spec:
   stages {
     stage('git') {
       steps {
-          git "https://github.com/antweiss/docker-dummy.git"
+	checkout scm
         }
       }
     stage('rust') {
