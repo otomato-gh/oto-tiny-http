@@ -1,3 +1,3 @@
-from bitnami/minideb:stretch
-copy target/release/oto-tiny-http /app
-cmd /app
+FROM bitnami/minideb:stretch
+COPY target/release/oto-tiny-http /app
+CMD /app
